@@ -1,0 +1,99 @@
+/* Style for smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center; /* Center the header */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for smaller image */
+.center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.center img {
+    width: 500px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid white; /* Add white border directly to the image */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style for the name of the map */
+.image-text-name {
+    font-weight: bold;
+    font-size: 1.9em !important; /* Slightly bigger font size */
+}
+
+/* Style for the map code */
+.image-text-code {
+    font-weight: bold;
+}
+
+.center img:hover {
+    opacity: 0.8; /* Reduce opacity of the image when hovered */
+    transform: scale(1.1); /* Scale up the image when hovered */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for the effect */
+}
+
+table {
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+header h1 {
+    text-align: center;
+}
