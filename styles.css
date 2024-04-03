@@ -65,7 +65,7 @@ footer {
 }
 
 .center img {
-    width: 500px; /* Adjust width as needed */
+    max-width: 100%; /* Ensure images are not wider than their container */
     height: auto; /* Maintain aspect ratio */
     border: 2px solid white; /* Add white border directly to the image */
     border-radius: 8px; /* Add border-radius for rounded corners */
@@ -96,4 +96,11 @@ table {
 
 header h1 {
     text-align: center;
+}
+
+/* Media query for desktop screens */
+@media only screen and (min-width: 1025px) {
+    .center img {
+        max-width: 800px; /* Set maximum width for desktop screens */
+    }
 }
